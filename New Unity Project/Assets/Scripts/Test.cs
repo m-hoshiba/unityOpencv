@@ -12,16 +12,11 @@ using System.IO;
 
 public class Test : MonoBehaviour {
     private new Camera camera;
+    
     [SerializeField] private RenderTexture renderTexture;
-    [SerializeField] private string texturePath;
     [SerializeField] private Image image;
     private Text text;
 
-    public Transform Target { get { return target; } private set { target = value; } }
-    //public Transform Target { get; private set; }
-    [SerializeField] private Transform target;
-
-    //private Texture2D targetTexture;
     private string tempImagePath { get
         {
             return Application.dataPath + "/tempImage.png";
