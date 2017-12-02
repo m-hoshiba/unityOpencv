@@ -232,6 +232,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PosView.cs" />
+    <Compile Include="Assets\Screenshot.cs" />
     <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\testopencv.cs" />
   </ItemGroup>
